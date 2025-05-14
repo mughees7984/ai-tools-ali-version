@@ -10,7 +10,11 @@ const PORT = process.env.PORT || 5000
 
 
 //Middleware
-app.use(cors({origin: "https://ai-tools-ali-version-frontend.vercel.app"}));
+app.use(cors({
+  origin: "https://ai-tools-ali-version-frontend.vercel.app",
+  credentials: true
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
