@@ -17,7 +17,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // POST - Submit tool with image
-router.post("/tools", upload.single("image"), async (req, res) => {
+router.post("/tools-with-image", upload.single("image"), async (req, res) => {
   try {
     const { name } = req.body;
     const image = req.file ? `/uploads/${req.file.filename}` : null;
@@ -76,5 +76,7 @@ router.put("/tools/:id", async (req, res) => {
     });
   }
 });
+
+
 
 module.exports = router;
