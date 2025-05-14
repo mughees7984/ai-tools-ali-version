@@ -25,6 +25,7 @@ const SubmitToolForm = () => {
       const response = await fetch("https://ai-tools-ali-version-backend.vercel.app/api/tools/tools-with-image", {
         method: "POST",
         body: formData,
+        credentials: "include"
       });
 
       if (response.ok) {
