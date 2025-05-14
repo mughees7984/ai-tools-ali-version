@@ -10,22 +10,7 @@ const PORT = process.env.PORT || 5000
 
 
 //Middleware
-const allowedOrigins = [
-  "http://localhost:3000",
-  "https://ai-tools-ali-version-frontend.vercel.app"
-];
-
-app.use(cors({
-  origin: function (origin, callback) {
-    // allow requests with no origin (like mobile apps or curl requests)
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  }
-}));
-
+app.use(cors({origin: "https://ai-tools-ali-version-frontend.vercel.app"}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
