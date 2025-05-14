@@ -14,6 +14,8 @@ app.use(cors({
   origin: "https://ai-tools-ali-version-frontend.vercel.app",
   credentials: true
 }));
+app.options('*', cors()); // Add this
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
