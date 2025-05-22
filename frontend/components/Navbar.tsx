@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <nav className="w-[95%] mx-auto flex justify-between px-4 py-5 bg-white dark:bg-[#121212] transition-all duration-300">
       <Link href="/" className="flex items-center justify-center gap-2">
-        <Image src="/ai_logo.png" alt="ai" width={50} height={50} />
+        <Image src="/logo.png" alt="ai" width={50} height={50} />
         <p className="font-bold text-xl text-black dark:text-white">
           Tools Radar
         </p>

@@ -15,10 +15,10 @@ const Hero = () => {
           <Image src="/hero3.png" alt="hero" width={130} height={65} />
         </div>
 
-        <div className="absolute flex flex-col space-y-4 top-[20%] left-[40%]">
+        <div className="absolute flex flex-col space-y-4 top-[20%] left-[37%]">
           <h1 className="text-3xl md:text-4xl font-bold text-black mb-4 leading-12">
             Discover the Top AI tools
-            <div className="text-center pr-3">with AI Tools Radar!</div>
+            <div className="text-center pr-12">with AI Tools Radar!</div>
           </h1>
 
           <p className="text-[#272729] font-semibold max-w-xl text-base md:text-lg mb-6">
@@ -28,13 +28,13 @@ const Hero = () => {
             </span>
           </p>
 
-          <div className="flex items-center w-[65%]  rounded-full border-2 border-[#7d42fb] bg-white shadow-md px-4 py-2 pl-4">
+          <div className="relative flex items-center w-[65%]  rounded-full border-2 border-[#7d42fb] bg-white shadow-md px-4 py-4 pl-2 ml-12 ">
             <input
               type="text"
               placeholder="Search for..."
               className="flex-1 outline-none bg-transparent text-sm  px-2"
             />
-            <button className="bg-[#7d42fb] text-white text-sm  font-semibold px-5 py-2 rounded-full">
+            <button className="absolute bg-[#7d42fb] right-[2%] text-white text-sm  font-semibold px-5 py-2 rounded-full">
               Search
             </button>
           </div>
