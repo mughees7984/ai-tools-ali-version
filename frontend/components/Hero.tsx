@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="absolute flex flex-col space-y-4 top-[20%] left-[37%]">
           <h1 className="text-3xl md:text-4xl font-bold text-black mb-4 leading-12">
             Discover the Top AI tools
-            <div className="text-center pr-12">with AI Tools Radar!</div>
+            <div className="text-center pr-12">with AI Tools Cover!</div>
           </h1>
 
           <p className="text-[#272729] font-semibold max-w-xl text-base md:text-md mb-6">

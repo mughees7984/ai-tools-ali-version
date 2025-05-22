@@ -12,10 +12,10 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               
               <Image src="/logo.png" alt="logo" width={50} height={50} />
-              <span className="font-bold text-xl">Tools Radar</span>
+              <span className="font-bold text-xl">Tools Cover</span>
             </div>
             <p className="text-[#4a4a4a] font-semibold mb-4 ">
-              Never miss out on the latest developments in AI. AI Tools Radar
+              Never miss out on the latest developments in AI. AI Tools Cover
               delivers daily updates on new tools, ensuring you stay informed
               about the freshest and most impactful technologies.
             </p>

@@ -39,7 +39,7 @@ const Navbar = () => {
       <Link href="/" className="flex items-center justify-center gap-2">
         <Image src="/logo.png" alt="ai" width={50} height={50} />
         <p className="font-bold text-xl text-black dark:text-white">
-          Tools Radar
+          Tools Cover
         </p>
       </Link>
 
