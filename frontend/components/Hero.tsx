@@ -21,14 +21,14 @@ const Hero = () => {
             <div className="text-center pr-12">with AI Tools Radar!</div>
           </h1>
 
-          <p className="text-[#272729] font-semibold max-w-xl text-base md:text-lg mb-6">
+          <p className="text-[#272729] font-semibold max-w-xl text-base md:text-md mb-6">
             Your gateway to the finest AI tools, meticulously organized
             <span className="block text-center">
               and categorized for easy access.
             </span>
           </p>
 
-          <div className="relative flex items-center w-[65%]  rounded-full border-2 border-[#7d42fb] bg-white shadow-md px-4 py-4 pl-2 ml-12 ">
+          <div className="relative flex items-center w-[70%]  rounded-full border-2 border-[#7d42fb] bg-white shadow-md px-4 py-4 pl-2 ml-12 ">
             <input
               type="text"
               placeholder="Search for..."
